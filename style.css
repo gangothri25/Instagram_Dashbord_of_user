@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    /* border and padding will be adjusted */
+    margin:0%;  
+    
+    /* border: 2px solid red; */
+}
+.bg{
+    border-bottom:1px solid  gray;
+}
+.nav-item{
+    margin:5px;
+}
+.navbar-brand ,#curl{
+    font-family: "Cookie", cursive;
+    
+    /* font-weight: 400; */
+    font-style: normal;
+    
+}
+.nav-link:hover{
+    background-color: darkgray;
+    .fa-solid ,.fa-brands{
+        transition: transform .3s;  
+        transform: scale(1.2);
+    }
+    border-radius: 10px;
+  
+}
+.body{
+    font-size: 15px;
+}
+.fa-solid ,.fa-brands,.fa-regular{
+    font-size:20px;
+    color:black;   
+}
+
+
+.sec1{
+    margin:2%;
+    justify-content: center;
+}
+.profo{
+  
+    border-radius: 50%;
+}
+.para{
+    padding-right: 130px;
+}
+#bold{
+    font-weight: bold;
+}
+#butt{
+    
+    color:black;
+    background-color: darkgray;
+    border-radius:5%;
+    border:none;
+}
+.img{
+    /* background: 
+    linear-gradient(#ccc 0 0) padding-box,
+    linear-gradient(to right, #9c20aa, #c6c635,#fb3570) border-box;
+  padding: 0px;
+  border: 5px solid transparent; */
+  border-radius: 50%;  
+}
+.header a{
+    text-decoration: none;
+    color:black;
+    margin:2%;
+}
+.header a:hover{
+    text-decoration: none;
+    color:darkgray;
+    text-shadow: 1px 1px  black;
+    margin:2%;
+}
+.post{
+    aspect-ratio: 1/2;
+    padding: 5%;
+}
+    
